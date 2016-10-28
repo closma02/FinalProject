@@ -3,25 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="Styles.css">
-    <title></title>
+    <title>Fortune Teller</title>
 </head>
 <body>
 
-<p>
-    Hello and welcome! What can I help you with? HA! Kidding you want answers to the unknown, of course I knew that.<br>
+<h1>
+    Fortune Teller
+</h1>
+
+<p id="p1">
+    Hello and welcome! What can I help you with? HA! <br> Kidding you want answers to the unknown, of course I knew that.<br>
     Before we get started let's customize your experience.
 </p>
-<p>Choose a user</p>
 
+<p id="p2">Choose a user</p>
 
-
-<table id="userTable">
+<table id="table1">
     <tr>
-        <td><label><input type="radio" name="user" id="radMan" checked = true><img src="images/man.gif" alt = "man"></label></td>
-        <td><label><input type="radio" name="user" id="radOldMan" checked="false"><img src="images/oldman.png" alt="oldman"></label></td>
-        <td><label><input type="radio" name="user" id="woman" checked="false"><img src="images/girl.jpg" alt="woman"></label></td>
+        <td><label><input type="radio" name="user" id="radMan" checked = "checked"><img src="images/man.png" alt = "man"></label></td>
+        <td><label><input type="radio" name="user" id="radOldMan"><img src="images/oldman.png" alt="oldman"></label></td>
+        <td><label><input type="radio" name="user" id="radWoman"><img src="images/woman.png" alt="woman"></label></td>
+        <td><label><input type="radio" name="user" id="radOldWoman"><img src="images/oldlady.png" alt="woman"></label></td>
     </tr>
-    </table>
+</table>
+
+<p id="p3">Choose Fortune Teller</p>
+
+<table id="table1">
+    <tr>
+        <td><label><input type="radio" name="teller" id="radFT1" checked = "checked"><img src="images/FT1.png" alt = "woman"></label></td>
+        <td><label><input type="radio" name="teller" id="radFT2"><img src="images/FT2.png" alt="man"></label></td>
+    </tr>
+</table>
+
+
 
 </body>
 </html>
